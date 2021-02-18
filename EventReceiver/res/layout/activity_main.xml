@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="168dp"
+        android:layout_marginTop="84dp"
+        android:onClick="button_regist"
+        android:text="@string/regist"
+ 
+        />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="356dp"
+        android:onClick="button_post"
+        android:text="@string/post"
+        />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="103dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="264dp"
+        android:layout_marginTop="357dp"
+        android:layout_marginEnd="44dp"
+        android:layout_marginBottom="328dp"
+        android:onClick="button_get"
+        android:text="@string/getStatus"
+        />
+
+</LinearLayout>

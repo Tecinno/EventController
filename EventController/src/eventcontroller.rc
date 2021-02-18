@@ -1,0 +1,2 @@
+service eventcontrollerservice /system/bin/eventcontrollerservice
+    class core
