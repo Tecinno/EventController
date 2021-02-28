@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+    <objectAnimator
+        android:duration="500"
+        android:interpolator="@*nextev:interpolator/nio_default_interpolator"
+        android:propertyName="scaleY"
+        android:valueFrom="0.9"
+        android:valueTo="1.0"
+        android:valueType="floatType" />
+    <objectAnimator
+        android:duration="500"
+        android:interpolator="@*nextev:interpolator/nio_default_interpolator"
+        android:propertyName="scaleX"
+        android:valueFrom="0.9"
+        android:valueTo="1.0"
+        android:valueType="floatType" />
+    <objectAnimator
+        android:duration="500"
+        android:interpolator="@*nextev:interpolator/nio_default_interpolator"
+        android:propertyName="tint"
+        android:valueFrom="#FF000000"
+        android:valueTo="#FFFFFFFF"
+        android:valueType="colorType" />
+</set>

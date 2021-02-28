@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">EventReceiverAPK</string>
+    <string name="retry">重试</string>
+    <string name="park">游乐园</string>
+    <string name="birthday">生日</string>
+    <string name="gift">礼物</string>
+    <string name="love">爱心</string>
+    <string name="regist">regist</string>
+    <string name="post">post</string>
+    <string name="get">get</string>
+</resources>

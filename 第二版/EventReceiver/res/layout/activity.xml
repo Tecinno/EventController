@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="-4dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <!-- <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/lottieImage"
+            android:layout_width="415dp"
+            android:layout_height="343dp"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true" />
+
+        <com.opensource.svgaplayer.SVGAImageView
+            android:id="@+id/svgaImage"
+            android:layout_width="408dp"
+            android:layout_height="343dp"
+            android:layout_alignParentTop="true"
+            app:autoPlay="true"
+            app:clearsAfterStop="false"
+            app:loopCount="1"
+            tools:layout_editor_absoluteX="4dp" /> -->
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:onClick="button_regist"
+            android:text="@string/regist"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:onClick="button_post"
+            android:text="@string/post"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:onClick="button_get"
+            android:text="@string/get"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:text="@string/park"
+            android:textAllCaps="false" />
+
+    </LinearLayout>
+
+</LinearLayout>
